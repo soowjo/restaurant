@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+#naviBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+#naviBar h3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#naviBar h3:active {
+    transform: scale(0.95);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#home > * {
+    padding: 10px;
+}
+
+img {
+    height: 100px;
+}
+
+#menu, #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px
+}
+
+#bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
